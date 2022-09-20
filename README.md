@@ -1,15 +1,12 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
 
-Run `yarn` to install all dependencies
+1. Run `yarn` to install all dependencies</br>
+    `!` All components developing under `./src/components`</br>
+    `!` After that importing into `./src/stories`
 
-```bash
-yarn dev
-or 
-yarn storybook
-```
+2. Run `yarn storybook` - for storybook developing,
+   - open in browser: [http://localhost:3000](http://localhost:3000)
 
-DEV:  [http://localhost:3000](http://localhost:3000)
-
-Storybook: [http://localhost:6006/](http://localhost:6006)
+3. Run `yarn dev` - for app developing, 
+   - open in browser: [http://localhost:6006/](http://localhost:6006)
